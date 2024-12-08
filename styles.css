@@ -1,0 +1,35 @@
+/* Personalización de estilos para el CV */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Fondo gris claro */
+    color: #333;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+.card {
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.list-group-flush .list-group-item {
+    border: none;
+    padding: 0.5rem 0;
+}
+
+hr {
+    margin: 2rem 0;
+    border: none;
+    border-top: 1px solid #dee2e6;
+}
